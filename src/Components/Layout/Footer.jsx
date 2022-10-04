@@ -78,11 +78,11 @@ const Footer = () => {
           <img className="img" src="./Assists/logo-2.png" alt="" />
         </div>
         <div className="col-md-4"></div>
-        <div className="col-md-2">
+        <div className="col-md-2 col-4">
           <a href="#"><h6> Privacy policy</h6></a>
         </div>
-        <div className="col-md-2"><a href="#"><h6>Terms of use</h6></a></div>
-        <div className="col"><AiFillTwitterCircle size={34}/>
+        <div className="col-md-2 col-4"><a href="#"><h6>Terms of use</h6></a></div>
+        <div className="col-md-2 col-4"><AiFillTwitterCircle size={34}/>
         <AiFillLinkedin size={34}/>
         </div>
       </div>
