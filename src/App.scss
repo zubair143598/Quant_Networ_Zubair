@@ -10,15 +10,48 @@
   margin-top: 40px;
 }
 
+body
+{
+  background-color: #F6F6F6;
+}
 .header
 {
+  background-color: #F6F6F6 !important; 
+  @media screen and (max-width:600px)
+  {
+    .navdd
+    {
+      width: 300px !important;
+    }
+  }
   .navdd
   {
+    
+    padding: 34px;
+    width: 600px;
     display: none;
+    background-color: white;
+    border-top-right-radius: 30px ;
+    border-bottom-left-radius: 30px ;
+    .arr
+    {
+      float: right;
+    }
+    a
+    {
+      text-decoration: none;
+      color: black;
+      border-bottom: none !important;
+    }
+    li:hover
+    {
+      background-color: rgb(215, 210, 210);
+      
+    }
   }
-  .navdd:hover
-  {
-    display: block;
+  .nav-item:hover .navdd{
+    display: block
+    
   }
   .logo
   {
@@ -26,7 +59,7 @@
   }
   p
   {
-    font-weight: 900;
+    // font-weight: 900;
     display: inline-block !important;
   }
   
@@ -46,6 +79,7 @@
 
 .hero
 { 
+  margin-bottom: 100px;
   @media  screen and (max-width:600px)
   {
     .head1
@@ -109,7 +143,8 @@
 {
   background-image: url(./Media/london-areal.jpg);
   background-size: cover;
-  background-attachment: fixed;
+  // background-attachment: fixed;
+  // height: 500px;
   background-repeat: no-repeat;
   color: white;
   padding-top: 30px;
@@ -117,7 +152,9 @@
   padding-bottom: 30px;
   h1
   {
+    margin-top: 40px;
     font-size: 50px;
+    // font-size: 90px;
   }
   p
   {
@@ -303,10 +340,10 @@
   {
     width: 60%;
   }
-  hr
-  {
+ // hr
+  //{
     // margin-top: 80px;
-  }
+ // }
   // .row2
   // {
   //   margin-top:80px ;

@@ -6,7 +6,8 @@ const Hero = () => {
 
     <div className="container-fluid">
       <div className="row">
-        <div className="col-md-6 " data-aos="fade-down-right">
+        <div className="col-md-1"></div>
+        <div className="col-md-5 " data-aos="fade-down-right">
           <h1 className="head1">The future of finance.<span className="today"> Today</span>.</h1>
           
           <button className="btn " >Get Started</button>

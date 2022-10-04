@@ -13,11 +13,10 @@ const Create = () => {
 
       <div className="row">
         <div className="col-md-1"></div>
-        <div className="col-md-2">
+        <div className="col-md-3">
           <div className="hover">
             <h3>Capital market</h3>
             <p>
-              {" "}
               Capital markets Assets of all kinds – both physical and digital –
               are being tokenised. Issuers are gaining access to entire new
               pools of liquidity, while investors are diversifying their
@@ -25,8 +24,8 @@ const Create = () => {
             </p>
           </div>
         </div>
-        <div className="col-md-6"></div>
-        <div className="col">
+        <div className="col-md-4"></div>
+        <div className="col-md-3">
           <div className="hover">
             <h3>Compliance</h3>
             <p>
@@ -40,7 +39,7 @@ const Create = () => {
       </div>
 
       <div className="row">
-        <div className="col-md-2 ">
+        <div className="col-md-3 ">
           <div className="hover">
             <h3>Payments</h3>
             <p>
@@ -54,8 +53,9 @@ const Create = () => {
           </div>
         </div>
 
-        <div className="col-md-8"></div>
-        <div className="col-md-2 ">
+        <div className="col-md-5"></div>
+        <div className="col-md-1"></div>
+        <div className="col-md-3 ">
           <div className="hover">
             <h3 >Supply chain and trade finance</h3>
             <p>
@@ -70,7 +70,7 @@ const Create = () => {
 
       <div className="row">
         <div className="col-md-1"></div>
-        <div className="col-md-2">
+        <div className="col-md-3">
           <div className="hover">
             <h3>Digital currencies</h3>
             <p>
@@ -80,8 +80,8 @@ const Create = () => {
             </p>
           </div>
         </div>
-        <div className="col-md-6"></div>
-        <div className="col ">
+        <div className="col-md-4"></div>
+        <div className="col-md-3 ">
           <div className="hover">
             <h3>Insurance</h3>
             <p>
