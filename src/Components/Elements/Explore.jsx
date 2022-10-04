@@ -33,6 +33,7 @@ const Explore = () => {
       <div className="container cards">
         <div className="row">
           <div className="col-md-3">
+            <div className="top">
             <div className="card" style={{ width: "18rem" }}>
               <div className="card-body ">
                 <h5 className="card-title">News</h5>
@@ -54,8 +55,10 @@ const Explore = () => {
                 </a>
               </div>
             </div>
+            </div>
           </div>
           <div className="col-md-3">
+            <div className="top">
             <div className="card" style={{ width: "18rem" }}>
               <div className="card-body ">
                 <h5 className="card-title">News</h5>
@@ -77,8 +80,10 @@ const Explore = () => {
                 </a>
               </div>
             </div>
+            </div>
           </div>
           <div className="col-md-3">
+            <div className="top">
             <div className="card" style={{ width: "18rem" }}>
               <div className="card-body ">
                 <h5 className="card-title">News</h5>
@@ -100,8 +105,10 @@ const Explore = () => {
                 </a>
               </div>
             </div>
+            </div>
           </div>
           <div className="col-md-3">
+            <div className="top">
             <div className="card" style={{ width: "18rem" }}>
               <div className="card-body ">
                 <h5 className="card-title">News</h5>
@@ -122,6 +129,7 @@ const Explore = () => {
                   ENTERPRISES
                 </a>
               </div>
+            </div>
             </div>
           </div>
         </div>

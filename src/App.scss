@@ -12,6 +12,14 @@
 
 .header
 {
+  .navdd
+  {
+    display: none;
+  }
+  .navdd:hover
+  {
+    display: block;
+  }
   .logo
   {
     width: 70px;
@@ -38,6 +46,13 @@
 
 .hero
 { 
+  @media  screen and (max-width:600px)
+  {
+    .head1
+    {
+      font-size: 60px;
+    }
+  }
   
   margin-top: 40px;
   // margin-left: 100px;
@@ -52,7 +67,7 @@
   video
   {
   width: 100%;
-  border-top-left-radius: 25rem;
+  border-top-left-radius: 15rem;
   height: 100%;
   }
   .btn
@@ -98,6 +113,7 @@
   background-repeat: no-repeat;
   color: white;
   padding-top: 30px;
+  margin-top: 30px;
   padding-bottom: 30px;
   h1
   {
@@ -139,7 +155,22 @@
   background-size: 400px;
   background-position: 50%;
   background-repeat: no-repeat;
-  
+  .hover
+  {
+    text-align: justify;
+    padding-left: 15px;
+  }
+  @media screen and (max-width:600px)
+  {
+    .head1
+    {
+      font-size: 45px;
+    }
+  }
+  .hover:hover
+  {
+    border-left: 2px solid orange;
+  }
 
   h1
   {
@@ -175,6 +206,10 @@
  }
 }
 
+.top
+{
+  padding-top: 20px;
+}
 .cards
 {
   margin-top: 70px;
@@ -243,13 +278,22 @@
   {
     background-color: red;
   }
-
+  
 }
 
-
+.fColor
+{
+  background-color: #F6F6F6;
+  
+}
 .footer
 {
-  margin-top: 10rem;
+  
+  // margin-top: 10rem;
+  ul
+  {
+    margin-top: 80px;
+  }
   a
   {
     text-decoration: none;
@@ -261,11 +305,11 @@
   }
   hr
   {
-    margin-top: 80px;
+    // margin-top: 80px;
   }
-  .row2
-  {
-    margin-top:80px ;
-    margin-bottom: 80px;
-  }
+  // .row2
+  // {
+  //   margin-top:80px ;
+  //   margin-bottom: 80px;
+  // }
 }

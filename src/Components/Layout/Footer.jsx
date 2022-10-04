@@ -4,6 +4,7 @@ import {AiFillLinkedin} from "react-icons/ai"
 
 const Footer = () => {
   return (
+    <div className="fColor">
     <div className="container footer">
       <div className="row">
         <div className="col-md-1"></div>
@@ -86,6 +87,7 @@ const Footer = () => {
         <AiFillLinkedin size={34}/>
         </div>
       </div>
+    </div>
     </div>
   );
 };
