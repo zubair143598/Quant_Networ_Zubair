@@ -5,8 +5,7 @@ const Header = () => {
     
       <nav className="navbar header sticky-top navbar-expand-lg bg-white">
         <div className="container">
-          <img className="logo" src="./Assists/logo.png" alt="" />
-          <p>Quant</p>
+          <img className="logo" src="./Assists/logo-2.png" alt="" />
           <button
             className="navbar-toggler"
             type="button"
