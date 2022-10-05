@@ -13,7 +13,7 @@ const Explore = () => {
               <h6 className="card-subtitle mb-2 text-muted">
                 29 septumber 2022
               </h6>
-              <h3>
+              <h3 className="headdinghover">
                 29 September 2022 Martin Hargreaves on the benefits of CBDCs for
                 consumers
               </h3>
@@ -40,7 +40,7 @@ const Explore = () => {
                   <h6 className="card-subtitle mb-2 text-muted">
                     29 septumber 2022
                   </h6>
-                  <h4>
+                  <h4 className="headdinghover">
                     Martin Hargreaves on the benefits of CBDCs for consumers
                   </h4>
                   <a href="#" className="card-link">
@@ -64,7 +64,7 @@ const Explore = () => {
                   <h6 className="card-subtitle mb-2 text-muted">
                     29 septumber 2022
                   </h6>
-                  <h4>15 September 2022 Gilbert Verdian explains The Merge</h4>
+                  <h4 className="headdinghover">15 September 2022 Gilbert Verdian explains The Merge</h4>
                   <a href="#" className="card-link">
                     CBDC
                   </a>
@@ -86,7 +86,7 @@ const Explore = () => {
                   <h6 className="card-subtitle mb-2 text-muted">
                     29 septumber 2022
                   </h6>
-                  <h4>
+                  <h4 className="headdinghover">
                   The multi-chain future: sidechains, layer 2s and The Merge
                   </h4>
                   <a href="#" className="card-link">
@@ -110,7 +110,7 @@ const Explore = () => {
                   <h6 className="card-subtitle mb-2 text-muted">
                     29 septumber 2022
                   </h6>
-                  <h4>
+                  <h4 className="headdinghover">
                   Overledger 2.2.14 is an engineering release  
                   </h4>
                   <a href="#" className="card-link">
