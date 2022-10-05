@@ -2,6 +2,7 @@ import React from "react";
 
 const Create = () => {
   return (
+    <div className="container-fluid createFluid">
     <div className="container  create">
       <div className="row">
         <div className="col-md-2"></div>
@@ -93,6 +94,7 @@ const Create = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

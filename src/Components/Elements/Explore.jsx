@@ -3,11 +3,11 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Explore = () => {
   return (
-    <>
+    <div className="container-fluid  banner1">
       <div className="explore container">
         <div className="row">
-          <div className="col-md-7">asd</div>
-          <div className="card" style={{ width: "33.8rem" }}>
+          <div className="col-md-7  "></div>
+          <div className="card col-md-5" style={{ width: "33.2rem" }}>
             <div className="card-body ">
               <h5 className="card-title">News</h5>
               <h6 className="card-subtitle mb-2 text-muted">
@@ -139,7 +139,7 @@ const Explore = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

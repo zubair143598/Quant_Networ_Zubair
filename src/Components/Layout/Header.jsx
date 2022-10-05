@@ -1,5 +1,6 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
+import { AiOutlineSearch } from "react-icons/ai";
 const Header = () => {
   return (
     <nav className="navbar header sticky-top navbar-expand-lg bg-white">
@@ -123,32 +124,48 @@ const Header = () => {
               <div className="col navdd position-absolute">
                 <div className="container">
                   <div className="row">
-                  <h5 className="p-3 ">WHO WE ARE</h5>
-                  <div className="col-md-6">
-                  <p>
-                    We empower banks, asset managers and other financial
-                    institutions; enterprises, typically with international
-                    operations; and the technology partners and fintech
-                    developers who support them.
-                  </p>
-                </div>
-                <div className="col-md-6">
-                   <ul className="list-unstyled">
+                    <h5 className="p-3 ">WHO WE ARE</h5>
+                    <div className="col-md-6">
+                      <p>
+                        We empower banks, asset managers and other financial
+                        institutions; enterprises, typically with international
+                        operations; and the technology partners and fintech
+                        developers who support them.
+                      </p>
+                    </div>
+                    <div className="col-md-6">
+                      <ul className="list-unstyled">
+                        <li>
+                          <a href="#">
+                            Financial Developers
+                            <BsArrowRight className="arr" size={14} />
+                          </a>
+                        </li>
 
-                   <li><a href="#">Financial Developers<BsArrowRight className="arr" size={14}/></a></li>
-                   
-                   <li><a href="#">Enterprises<BsArrowRight className="arr" size={14}/></a></li>
-                   <li><a href="#">Partners<BsArrowRight className="arr" size={14}/></a></li>
-                   <li><a href="#">Developer<BsArrowRight className="arr" size={14}/></a></li>
-                   </ul>
-                  </div>
+                        <li>
+                          <a href="#">
+                            Enterprises
+                            <BsArrowRight className="arr" size={14} />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Partners
+                            <BsArrowRight className="arr" size={14} />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Developer
+                            <BsArrowRight className="arr" size={14} />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                
-                  
               </div>
             </li>
-
 
             <li className="nav-item position-relative">
               <a className="nav-link active " aria-current="page" href="#">
@@ -157,32 +174,48 @@ const Header = () => {
               <div className="col navdd position-absolute">
                 <div className="container">
                   <div className="row">
-                  <h5 className="p-3 ">WHO WE ARE</h5>
-                  <div className="col-md-6">
-                  <p>
-                    We empower banks, asset managers and other financial
-                    institutions; enterprises, typically with international
-                    operations; and the technology partners and fintech
-                    developers who support them.
-                  </p>
-                </div>
-                <div className="col-md-6">
-                   <ul className="list-unstyled">
+                    <h5 className="p-3 ">WHO WE ARE</h5>
+                    <div className="col-md-6">
+                      <p>
+                        We empower banks, asset managers and other financial
+                        institutions; enterprises, typically with international
+                        operations; and the technology partners and fintech
+                        developers who support them.
+                      </p>
+                    </div>
+                    <div className="col-md-6">
+                      <ul className="list-unstyled">
+                        <li>
+                          <a href="#">
+                            Financial Developers
+                            <BsArrowRight className="arr" size={14} />
+                          </a>
+                        </li>
 
-                   <li><a href="#">Financial Developers<BsArrowRight className="arr" size={14}/></a></li>
-                   
-                   <li><a href="#">Enterprises<BsArrowRight className="arr" size={14}/></a></li>
-                   <li><a href="#">Partners<BsArrowRight className="arr" size={14}/></a></li>
-                   <li><a href="#">Developer<BsArrowRight className="arr" size={14}/></a></li>
-                   </ul>
-                  </div>
+                        <li>
+                          <a href="#">
+                            Enterprises
+                            <BsArrowRight className="arr" size={14} />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Partners
+                            <BsArrowRight className="arr" size={14} />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Developer
+                            <BsArrowRight className="arr" size={14} />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                
-                  
               </div>
             </li>
-
 
             <li className="nav-item position-relative">
               <a className="nav-link active " aria-current="page" href="#">
@@ -191,59 +224,86 @@ const Header = () => {
               <div className="col navdd position-absolute">
                 <div className="container">
                   <div className="row">
-                  <h5 className="p-3 ">WHO WE ARE</h5>
-                  <div className="col-md-6">
-                  <p>
-                    We empower banks, asset managers and other financial
-                    institutions; enterprises, typically with international
-                    operations; and the technology partners and fintech
-                    developers who support them.
-                  </p>
-                </div>
-                <div className="col-md-6">
-                   <ul className="list-unstyled">
+                    <h5 className="p-3 ">WHO WE ARE</h5>
+                    <div className="col-md-6">
+                      <p>
+                        We empower banks, asset managers and other financial
+                        institutions; enterprises, typically with international
+                        operations; and the technology partners and fintech
+                        developers who support them.
+                      </p>
+                    </div>
+                    <div className="col-md-6">
+                      <ul className="list-unstyled">
+                        <li>
+                          <a href="#">
+                            Financial Developers
+                            <BsArrowRight className="arr" size={14} />
+                          </a>
+                        </li>
 
-                   <li><a href="#">Financial Developers<BsArrowRight className="arr" size={14}/></a></li>
-                   
-                   <li><a href="#">Enterprises<BsArrowRight className="arr" size={14}/></a></li>
-                   <li><a href="#">Partners<BsArrowRight className="arr" size={14}/></a></li>
-                   <li><a href="#">Developer<BsArrowRight className="arr" size={14}/></a></li>
-                   </ul>
-                  </div>
+                        <li>
+                          <a href="#">
+                            Enterprises
+                            <BsArrowRight className="arr" size={14} />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Partners
+                            <BsArrowRight className="arr" size={14} />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Developer
+                            <BsArrowRight className="arr" size={14} />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                
-                  
               </div>
             </li>
-
-
 
             <li className="nav-item postion-relative">
               <a className="nav-link active " aria-current="page" href="#">
                 Sign In
               </a>
-              <div className="col navdd position-absolute">
-                <div className="container">
+              <div className="col navdd position-absolute signin">
+                <div className="container ">
                   <div className="row">
-                  <h5 className="p-3 ">WHO WE ARE</h5>
-                  <div className="col-md-6">
-                  <p> Browse, buy and instantly start using any Quant product.</p>
-                </div>
+                    <h5 className="p-3 ">Developer portal</h5>
+                    <div className="col">
+                      <p>
+                        {" "}
+                        Browse, buy and instantly start using any Quant product.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                
-                  
               </div>
             </li>
-            <form action="">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="search"
-                aaria-label="Search"
-              />
-            </form>
+            <li className="nav-item postion-relative">
+              <a className="nav-link active " aria-current="page" href="#">
+                <AiOutlineSearch size={30} />
+              </a>
+              <div className="col navdd position-absolute search">
+                <div className="container ">
+                  <div className="row">
+                    <form action="">
+                      <input
+                        className="form-control me-2"
+                        type="search"
+                        placeholder="search"
+                        aaria-label="Search"
+                      />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
       </div>

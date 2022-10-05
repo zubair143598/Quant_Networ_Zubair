@@ -10,13 +10,21 @@
   margin-top: 40px;
 }
 
-body
-{
-  background-color: #F6F6F6;
-}
+
+
+
 .header
 {
-  background-color: #F6F6F6 !important; 
+  .search
+  {
+    margin-left: -165px !important;
+    width: 21rem !important;
+  }
+  .signin
+  {
+   margin-right: 30px;
+    width: 300px !important;
+  }
   @media screen and (max-width:600px)
   {
     .navdd
@@ -77,6 +85,8 @@ body
   }
 }
 
+
+
 .hero
 { 
   margin-bottom: 100px;
@@ -114,6 +124,9 @@ body
   }
 }
 
+
+
+
 .Box
 {
   margin-top: 40px;
@@ -138,6 +151,10 @@ body
     background-color: red;
   }
 }
+
+
+
+
 
 .emp
 {
@@ -172,6 +189,9 @@ body
   
 }
 
+
+
+
 .arrow
 {
   margin-top: 80px;
@@ -185,6 +205,9 @@ body
   }
 }
 
+
+
+
 .create
 {
 
@@ -197,6 +220,8 @@ body
     text-align: justify;
     padding-left: 15px;
   }
+
+
   @media screen and (max-width:600px)
   {
     .head1
@@ -204,6 +229,8 @@ body
       font-size: 45px;
     }
   }
+
+
   .hover:hover
   {
     border-left: 2px solid orange;
@@ -217,6 +244,10 @@ body
 }
 
 
+
+.banner1
+{
+  background-color: #F6F6F6;
 .explore
 {
   background-image: url("./Media/CITY-a.m_website.png");
@@ -241,6 +272,7 @@ body
   padding: 5px;
   border-radius: 10px;
  }
+}
 }
 
 .top
@@ -294,6 +326,8 @@ body
   }
 }
 
+
+
 .banner3
 {
   background-image: url(./Media/london2.jpg);
@@ -322,7 +356,6 @@ body
 {
   background-color: #F6F6F6;
   
-}
 .footer
 {
   
@@ -330,6 +363,7 @@ body
   ul
   {
     margin-top: 80px;
+    
   }
   a
   {
@@ -344,9 +378,10 @@ body
   //{
     // margin-top: 80px;
  // }
-  // .row2
-  // {
-  //   margin-top:80px ;
-  //   margin-bottom: 80px;
-  // }
+  .row2
+  {
+    margin-top:80px ;
+    
+  }
+}
 }
